@@ -1,0 +1,16 @@
+INDEX VERSION 1.130+C:\ITStudty\8.Spring\.metadata\.plugins\org.eclipse.jdt.core
+94782495.index
+1724401535.index
+949034925.index
+4010727911.index
+3478119957.index
+446920192.index
+3344951139.index
+727977826.index
+332046645.index
+1665360550.index
+1972606495.index
+3206278159.index
+3688858309.index
+1214116035.index
+1565028843.index

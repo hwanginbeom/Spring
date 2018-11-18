@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!-- Root Context: defines shared resources visible to all other web components -->
+		
+		<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource" >
+   <property name="driverClassName" value="com.mysql.jdbc.Driver" />
+   <<span class="pl-ent">property</span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">"</span>url<span class="pl-pds">"</span></span> <span class="pl-e">value</span>=<span class="pl-s"><span class="pl-pds">"</span>jdbc:mysql://127.0.0.1:3306/root?verifyServerCertificate=false<span class="pl-c1">&amp;</span>autoReconnect=true<span class="pl-c1">&amp;</span>useSSL=false<span class="pl-c1">&amp;</span>serverTimezone=UTC<span class="pl-pds">"</span></span> />
+   <property name="username" value="user" />
+   <property name="password" value="1234" />
+</bean>
+		
+</beans>
